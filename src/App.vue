@@ -49,4 +49,6 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+@import "@/assets/style/reset.scss";
+</style>
