@@ -12,9 +12,18 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { faTrophy } from "@fortawesome/free-solid-svg-icons";
 import { faBoltLightning } from "@fortawesome/free-solid-svg-icons";
 import { faQuestion } from "@fortawesome/free-solid-svg-icons";
+import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 /* add icons to the library */
-library.add(faMagnifyingGlass, faTrophy, faBoltLightning, faQuestion);
+library.add(
+  faMagnifyingGlass,
+  faTrophy,
+  faBoltLightning,
+  faQuestion,
+  faChevronLeft,
+  faChevronRight
+);
 
 /* add font awesome icon component */
 Vue.component("font-awesome-icon", FontAwesomeIcon);
