@@ -257,7 +257,10 @@ export default {
 
   .location__body {
     background-image: url(../assets/img/location-bg.jpg);
-    padding: 3rem;
+    background-size: 90%;
+    background-position: center;
+    background-repeat: repeat;
+    padding: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
