@@ -17,6 +17,12 @@ import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
 import { faLocationArrow } from "@fortawesome/free-solid-svg-icons";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
+import { faPlus } from "@fortawesome/free-solid-svg-icons";
+import { faMinus } from "@fortawesome/free-solid-svg-icons";
+import { faPerson } from "@fortawesome/free-solid-svg-icons";
+import { faCopyright } from "@fortawesome/free-regular-svg-icons";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 /* add icons to the library */
 library.add(
@@ -28,7 +34,13 @@ library.add(
   faChevronRight,
   faClock,
   faLocationArrow,
-  faUser
+  faUser,
+  faPlus,
+  faMinus,
+  faPerson,
+  faCopyright,
+  faPhone,
+  faEnvelope
 );
 
 /* add font awesome icon component */
