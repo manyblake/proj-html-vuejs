@@ -157,7 +157,7 @@ export default {
       p {
         padding: 0.3rem 0.6rem;
         color: $gray;
-        font-size: $text_xs;
+        font-size: $text-xs;
         background-color: white;
         cursor: pointer;
 
@@ -182,7 +182,7 @@ export default {
       p {
         padding: 0.3rem 0.6rem;
         color: $gray;
-        font-size: $text_xs;
+        font-size: $text-xs;
         background-color: white;
         cursor: pointer;
         aspect-ratio: 1/1;
@@ -267,7 +267,7 @@ export default {
     color: white;
 
     .location__title {
-      font-size: $text-l;
+      font-size: $text-xl;
       text-transform: uppercase;
       margin-bottom: 1.5rem;
     }

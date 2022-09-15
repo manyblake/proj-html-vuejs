@@ -37,12 +37,12 @@ export default {
 
   h4 {
     text-transform: uppercase;
-    font-size: $text_normal;
+    font-size: $text-normal;
   }
 
   p {
-    color: $natural_gray;
-    font-size: $text_xs;
+    color: $natural-gray;
+    font-size: $text-xs;
     line-height: 1.6;
 
     &:last-of-type {
@@ -56,7 +56,7 @@ export default {
   }
   a {
     color: $scarlet;
-    font-size: $text_s;
+    font-size: $text-s;
   }
 }
 </style>

@@ -83,7 +83,7 @@ export default {
         font-size: $text-xl;
       }
       .program__subtitle {
-        color: $natural_gray;
+        color: $natural-gray;
         font-size: $text-xxs;
       }
       .program__link {
@@ -136,7 +136,7 @@ export default {
           align-items: center;
           gap: 1rem;
           font-size: $text-xxs;
-          color: $natural_gray;
+          color: $natural-gray;
           text-transform: uppercase;
 
           span {
@@ -154,7 +154,7 @@ export default {
 
         p {
           font-size: $text-xxs;
-          color: $natural_gray;
+          color: $natural-gray;
           padding: 1.5rem 0;
           line-height: 2;
         }

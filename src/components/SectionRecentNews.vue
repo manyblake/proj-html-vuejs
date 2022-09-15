@@ -73,6 +73,7 @@ export default {
 
       h3 {
         text-transform: uppercase;
+        font-size: $text-xl;
       }
 
       a {
