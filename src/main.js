@@ -14,6 +14,9 @@ import { faBoltLightning } from "@fortawesome/free-solid-svg-icons";
 import { faQuestion } from "@fortawesome/free-solid-svg-icons";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { faClock } from "@fortawesome/free-regular-svg-icons";
+import { faLocationArrow } from "@fortawesome/free-solid-svg-icons";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
 
 /* add icons to the library */
 library.add(
@@ -22,7 +25,10 @@ library.add(
   faBoltLightning,
   faQuestion,
   faChevronLeft,
-  faChevronRight
+  faChevronRight,
+  faClock,
+  faLocationArrow,
+  faUser
 );
 
 /* add font awesome icon component */
