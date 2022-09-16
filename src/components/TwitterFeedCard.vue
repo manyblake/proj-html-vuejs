@@ -1,9 +1,9 @@
 <template>
-  <div class="card">
+  <div class="tweet">
     <font-awesome-icon style="color: #47bdee" icon="fa-brands fa-twitter" />
-    <div class="card socials__feed">
+    <div class="tweet__text">
       <p v-html="tweet"></p>
-      <p>{{ date }}</p>
+      <p class="tweet__date">{{ date }}</p>
     </div>
   </div>
 </template>
@@ -17,8 +17,8 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-.card {
+<style lang="scss">
+.tweet {
   display: flex;
   align-items: top;
   gap: 1rem;
@@ -29,12 +29,21 @@ export default {
     height: 20px;
   }
 
-  .socials__feed {
+  .tweet__text {
     color: $natural-gray;
     font-size: $text-xxs;
     line-height: 1.6;
     display: flex;
     flex-direction: column;
+
+    .tweet__date {
+      margin-top: 0.85rem;
+      font-style: italic;
+    }
+  }
+
+  a {
+    color: $scarlet;
   }
 }
 </style>

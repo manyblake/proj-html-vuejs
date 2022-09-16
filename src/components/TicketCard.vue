@@ -15,7 +15,7 @@
       </li>
     </ul>
 
-    <a class="card__button" :href="ticket.link">Book Now</a>
+    <a class="card__button" :href="ticket.url">Book Now</a>
   </div>
 </template>
 

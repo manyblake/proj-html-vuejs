@@ -9,9 +9,7 @@
 
       <ul class="sponsors__banner">
         <li v-for="(banner_img, i) in banner_imgs" :key="i">
-          <picture>
-            <img :src="banner_img" />
-          </picture>
+          <img :src="banner_img" />
         </li>
       </ul>
     </div>
@@ -72,6 +70,10 @@ export default {
     .sponsors__banner {
       display: flex;
       gap: 2rem;
+
+      li img {
+        cursor: pointer;
+      }
     }
   }
 }

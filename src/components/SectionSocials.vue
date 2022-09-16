@@ -42,12 +42,12 @@ export default {
         },
         {
           tweet:
-            "Stand out and be vibrant with some of the best bright and bold templates on <a>Envanto</a> Elements. And add a splash of c...<a href='#'>https://t.co/jFrsnzEjK7</a>",
+            "Stand out and be vibrant with some of the best bright and bold templates on <a>@Envanto</a> Elements. And add a splash of c...<a href='#'>https://t.co/jFrsnzEjK7</a>",
           date: "9 days ago",
         },
         {
           tweet:
-            "Stand out and be vibrant with some of the best bright and bold templates on <a>Envanto</a> Elements. And add a splash of c...<a href='#'>https://t.co/jFrsnzEjK7</a>",
+            "Stand out and be vibrant with some of the best bright and bold templates on <a>@Envanto</a> Elements. And add a splash of c...<a href='#'>https://t.co/jFrsnzEjK7</a>",
           date: "11 days ago",
         },
       ],
