@@ -48,7 +48,7 @@ export default {
 
 <style lang="scss" scoped>
 .gallery__title {
-  font-size: $text-s;
+  font-size: $text-xxs;
   margin-bottom: 2rem;
   text-transform: uppercase;
 }
@@ -57,5 +57,9 @@ export default {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0.5rem;
+
+  li img {
+    cursor: pointer;
+  }
 }
 </style>

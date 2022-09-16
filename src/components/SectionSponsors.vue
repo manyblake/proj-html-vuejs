@@ -66,6 +66,7 @@ export default {
       color: $natural-gray;
       margin-bottom: 2.5rem;
       text-align: center;
+      letter-spacing: normal;
     }
     .sponsors__banner {
       display: flex;

@@ -40,14 +40,14 @@ export default {};
 <style lang="scss" scoped>
 .about-us {
   .about-us___title {
-    font-size: $text-s;
+    font-size: $text-xs;
     margin-bottom: 2rem;
     text-transform: uppercase;
   }
 
   .about-us___description {
     line-height: 1.6;
-    font-size: $text-xs;
+    font-size: $text-xxxs;
     padding-right: 2rem;
     margin-bottom: 1rem;
   }

@@ -50,6 +50,8 @@ export default {
   .card__link {
     color: $scarlet;
     font-size: $text-xxs;
+    font-family: droid-serif, serif;
+    font-style: italic;
   }
 }
 </style>

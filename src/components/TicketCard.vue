@@ -35,12 +35,14 @@ export default {
     overflow: hidden;
 
     .card__title {
+      letter-spacing: normal;
       text-transform: uppercase;
       font-size: $text-normal;
       margin-bottom: 0.5rem;
     }
 
     .card__subtitle {
+      letter-spacing: normal;
       text-transform: uppercase;
       font-size: $text-xs;
       color: $scarlet;
@@ -54,7 +56,7 @@ export default {
       background-color: $scarlet;
       right: 0;
       top: 0;
-      font-size: $text-xxs;
+      font-size: $text-xxxs;
       transform: rotate(45deg) translate(30%, -100%);
 
       &.active {
@@ -71,6 +73,7 @@ export default {
       color: $natural-gray;
       font-style: italic;
       font-size: $text-xs;
+      font-family: droid-serif, serif;
 
       & + li {
         margin-top: 1rem;

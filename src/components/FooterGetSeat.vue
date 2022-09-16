@@ -17,14 +17,14 @@ export default {};
 
 <style lang="scss" scoped>
 .get-seat__title {
-  font-size: $text-s;
+  font-size: $text-xxs;
   margin-bottom: 2rem;
   text-transform: uppercase;
 }
 
 .get-seat__description {
   line-height: 1.6;
-  font-size: $text-xs;
+  font-size: $text-xxxs;
   padding-right: 2rem;
   margin-bottom: 2rem;
 }
@@ -34,7 +34,7 @@ a {
   color: white;
   background-color: $scarlet;
   text-transform: uppercase;
-  font-size: $text-xs;
+  font-size: $text-xxxs;
   font-weight: 600;
 }
 </style>

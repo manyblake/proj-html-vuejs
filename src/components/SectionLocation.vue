@@ -2,9 +2,9 @@
   <section class="location">
     <div class="location__wrapper">
       <div class="location__map">
-        <picture v-for="(map, i) in maps" :key="i">
+        <figure v-for="(map, i) in maps" :key="i">
           <img :src="map" />
-        </picture>
+        </figure>
 
         <div class="location__visual">
           <p>Map</p>
@@ -28,13 +28,13 @@
           <p>Report a map error</p>
         </div>
 
-        <picture class="location__google">
+        <figure class="location__google">
           <img :src="google" />
-        </picture>
+        </figure>
 
-        <picture class="location__marker">
+        <figure class="location__marker">
           <img :src="marker" />
-        </picture>
+        </figure>
       </div>
     </div>
 
@@ -143,7 +143,7 @@ export default {
     grid-template-columns: repeat(9, 1fr);
     position: relative;
 
-    picture {
+    figure {
       img {
         height: 100%;
       }
@@ -157,7 +157,7 @@ export default {
       p {
         padding: 0.3rem 0.6rem;
         color: $gray;
-        font-size: $text-xs;
+        font-size: $text-xxxs;
         background-color: white;
         cursor: pointer;
 
@@ -176,7 +176,7 @@ export default {
       display: flex;
       flex-direction: column;
       right: 11%;
-      bottom: 34%;
+      bottom: 36%;
       align-items: center;
 
       p {
@@ -215,7 +215,7 @@ export default {
 
     .location__google {
       position: absolute;
-      bottom: 31%;
+      bottom: 32%;
       left: 11%;
     }
 
@@ -225,7 +225,7 @@ export default {
       align-items: center;
       gap: 1px;
       right: 11%;
-      bottom: 31%;
+      bottom: 33%;
 
       .location__scale {
         display: flex;
@@ -246,7 +246,7 @@ export default {
       }
 
       p {
-        font-size: $text-xxxs;
+        font-size: 0.5rem;
         padding: 2px;
         background-color: white;
         color: $masala;

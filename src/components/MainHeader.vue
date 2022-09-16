@@ -1,8 +1,8 @@
 <template>
   <header class="container">
-    <picture>
+    <figure>
       <img src="../assets/img/logo.png" />
-    </picture>
+    </figure>
 
     <MainNavbar />
 

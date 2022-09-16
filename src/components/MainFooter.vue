@@ -84,17 +84,18 @@ footer {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     .footer__copyright {
       color: $natural-gray;
-      font-size: $text-xs;
+      font-size: $text-xxs;
     }
 
     .footer__actions {
       display: flex;
 
       li a {
-        font-size: $text-xs;
+        font-size: $text-xxs;
         color: $natural-gray;
         line-height: 28px;
       }

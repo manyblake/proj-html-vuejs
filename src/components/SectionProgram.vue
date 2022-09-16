@@ -46,9 +46,9 @@
             consectetur....
           </p>
 
-          <picture>
+          <figure>
             <img :src="speaker8" />
-          </picture>
+          </figure>
         </div>
       </div>
     </div>
@@ -90,6 +90,8 @@ export default {
         margin-left: auto;
         color: $scarlet;
         font-size: $text-xxs;
+        font-family: droid-serif, serif;
+        font-style: italic;
       }
     }
 
@@ -159,7 +161,7 @@ export default {
           line-height: 2;
         }
 
-        picture {
+        figure {
           aspect-ratio: 1/1;
           width: 2.5rem;
           display: block;

@@ -1,14 +1,19 @@
 <template>
   <div class="card">
-    <picture>
-      <img :src="url" />
-    </picture>
+    <figure>
+      <img :src="news.url" />
 
-    <p>{{ date }} / {{ comments }} comments</p>
+      <span class="card__sticky-label" v-if="news.sticky">
+        <font-awesome-icon icon="fa-solid fa-bullhorn" />
+        Sticky Post
+      </span>
+    </figure>
 
-    <h4>{{ title }}</h4>
+    <p>{{ news.date }} / {{ news.comments }} comments</p>
 
-    <p>{{ text }}</p>
+    <h4>{{ news.title }}</h4>
+
+    <p>{{ news.text }}</p>
 
     <a href="link">Read More</a>
   </div>
@@ -17,22 +22,55 @@
 <script>
 export default {
   props: {
-    url: String,
-    comments: Number,
-    date: String,
-    title: String,
-    text: String,
-    link: { type: String, default: "#" },
+    news: Object,
   },
 };
 </script>
 
 <style lang="scss" scoped>
 .card {
-  img {
-    aspect-ratio: 2/1;
-    object-fit: cover;
+  figure {
+    position: relative;
     margin-bottom: 1.5rem;
+    aspect-ratio: 2/1;
+    font-size: 0;
+
+    &::after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      display: none;
+      content: "";
+      background-color: rgba(#000000, 0.5);
+    }
+
+    &:hover {
+      &::after {
+        display: block;
+      }
+    }
+
+    .card__sticky-label {
+      display: flex;
+      text-transform: uppercase;
+      padding: 0.5rem;
+      font-size: $text-xxxs;
+      color: white;
+      background-color: $mine-shaft;
+      align-items: center;
+      position: absolute;
+      gap: 0.5rem;
+      right: 0;
+      bottom: 0;
+      z-index: 2;
+    }
+
+    img {
+      height: 100%;
+      object-fit: cover;
+    }
   }
 
   h4 {
@@ -57,6 +95,8 @@ export default {
   a {
     color: $scarlet;
     font-size: $text-s;
+    font-family: droid-serif, serif;
+    font-style: italic;
   }
 }
 </style>

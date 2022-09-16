@@ -33,7 +33,7 @@ export default {
 <style lang="scss" scoped>
 .recent-news {
   .recent-news__title {
-    font-size: $text-s;
+    font-size: $text-xxs;
     margin-bottom: 2rem;
     text-transform: uppercase;
   }
@@ -42,7 +42,7 @@ export default {
     .recent-news__news {
       text-transform: uppercase;
       color: $natural-gray;
-      font-size: $text-xxs;
+      font-size: $text-xxxs;
       cursor: pointer;
     }
 

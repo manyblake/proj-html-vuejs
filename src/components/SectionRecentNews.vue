@@ -7,13 +7,7 @@
       </div>
       <ul class="news__list">
         <li v-for="(card, i) in cards" :key="i">
-          <NewsCard
-            :url="card.url"
-            :comments="card.comments"
-            :date="card.date"
-            :title="card.title"
-            :text="card.text"
-          />
+          <NewsCard :news="card" />
         </li>
       </ul>
     </div>
@@ -37,6 +31,7 @@ export default {
           date: "03 Dec 2013",
           title: "Sedial eiusmod tempor",
           text: "Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Idque Caesaris facere voluntate liceret: sese habere....",
+          sticky: true,
         },
         {
           url: img2,
@@ -44,6 +39,7 @@ export default {
           date: "03 Dec 2013",
           title: "Donec luctus imperdiet",
           text: "Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Idque Caesaris facere voluntate liceret: sese habere....",
+          sticky: false,
         },
         {
           url: img3,
@@ -51,6 +47,7 @@ export default {
           date: "03 Dec 2013",
           title: "Magna pars studiorum",
           text: "Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Idque Caesaris facere voluntate liceret: sese habere....",
+          sticky: false,
         },
       ],
     };
@@ -79,6 +76,8 @@ export default {
       a {
         color: $scarlet;
         font-size: $text-xxs;
+        font-family: droid-serif, serif;
+        font-style: italic;
       }
     }
     .news__list {
