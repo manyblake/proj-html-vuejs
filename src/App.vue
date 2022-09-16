@@ -9,7 +9,7 @@
     <SectionLocation />
     <SectionRecentNews />
     <SectionTickets />
-    <SectionPresentation />
+    <SectionSocials />
     <SectionSponsors />
     <MainFooter />
   </div>
@@ -25,7 +25,7 @@ import SectionProgram from "./components/SectionProgram.vue";
 import SectionLocation from "./components/SectionLocation.vue";
 import SectionRecentNews from "./components/SectionRecentNews.vue";
 import SectionTickets from "./components/SectionTickets.vue";
-import SectionPresentation from "./components/SectionPresentation.vue";
+import SectionSocials from "./components/SectionSocials.vue";
 import SectionSponsors from "./components/SectionSponsors.vue";
 import MainFooter from "./components/MainFooter.vue";
 
@@ -42,7 +42,7 @@ export default {
     SectionLocation,
     SectionRecentNews,
     SectionTickets,
-    SectionPresentation,
+    SectionSocials,
     SectionSponsors,
     MainFooter,
   },

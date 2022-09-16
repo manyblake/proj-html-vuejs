@@ -260,7 +260,7 @@ export default {
     background-size: 90%;
     background-position: center;
     background-repeat: repeat;
-    padding: 4rem;
+    padding: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;

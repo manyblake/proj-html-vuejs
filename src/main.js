@@ -23,6 +23,7 @@ import { faPerson } from "@fortawesome/free-solid-svg-icons";
 import { faCopyright } from "@fortawesome/free-regular-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 /* add icons to the library */
 library.add(
@@ -40,7 +41,8 @@ library.add(
   faPerson,
   faCopyright,
   faPhone,
-  faEnvelope
+  faEnvelope,
+  faTwitter
 );
 
 /* add font awesome icon component */
